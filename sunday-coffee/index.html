@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Sunday Coffee</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- NAVBAR -->
+
+  <header>
+
+    <nav>
+
+      <div class="logo">
+        Sunday Coffee
+      </div>
+
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#visit">Visit</a></li>
+      </ul>
+
+      <a href="#visit">
+        <button class="nav-btn">
+          Visit Us
+        </button>
+      </a>
+
+    </nav>
+
+  </header>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="hero-left">
+
+      <p class="small-text">
+        SLOW MORNINGS • GOOD COFFEE
+      </p>
+
+      <h1>
+        Crafted For
+        Slow Mornings.
+      </h1>
+
+      <p class="hero-description">
+        A modern neighborhood café focused on
+        intentional coffee, warm spaces, and
+        conversations worth staying for.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="#menu">
+          <button class="primary-btn">
+            View Menu
+          </button>
+        </a>
+
+        <a href="#about">
+          <button class="secondary-btn">
+            Our Story
+          </button>
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="hero-right">
+
+      <img src="images/coffee-hero.jpg" alt="Coffee">
+
+    </div>
+
+  </section>
+
+  <!-- MENU -->
+
+  <section class="menu reveal" id="menu">
+
+    <div class="section-header">
+
+      <p>FEATURED MENU</p>
+
+      <h2>
+        Coffee Made With Intention
+      </h2>
+
+    </div>
+
+    <div class="menu-grid">
+
+      <div class="menu-card">
+
+        <img src="images/latte.jpg" alt="Latte">
+
+        <div class="menu-info">
+
+          <h3>Vanilla Latte</h3>
+
+          <p>
+            Smooth espresso with steamed milk
+            and house-made vanilla.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="menu-card">
+
+        <img src="images/espresso.jpg" alt="Espresso">
+
+        <div class="menu-info">
+
+          <h3>Espresso</h3>
+
+          <p>
+            Bold, rich espresso crafted from
+            ethically sourced beans.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="menu-card">
+
+        <img src="images/coldbrew.jpg" alt="Cold Brew">
+
+        <div class="menu-info">
+
+          <h3>Cold Brew</h3>
+
+          <p>
+            Slow-steeped for 18 hours with
+            smooth chocolate notes.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+
+  <section class="about reveal" id="about">
+
+    <div class="about-image">
+
+      <img src="images/cafe.jpg" alt="Cafe Interior">
+
+    </div>
+
+    <div class="about-text">
+
+      <p>ABOUT US</p>
+
+      <h2>
+        More Than
+        Just Coffee.
+      </h2>
+
+      <p>
+        Sunday Coffee was built to feel warm,
+        intentional, and slow-paced. Every detail —
+        from the lighting to the espresso —
+        is designed to create a space people
+        genuinely want to stay in.
+      </p>
+
+      <a href="#visit">
+        <button class="primary-btn">
+          Visit The Café
+        </button>
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- GALLERY -->
+
+  <section class="gallery reveal" id="gallery">
+
+    <div class="gallery-text">
+
+      <p>GALLERY</p>
+
+      <h2>
+        Warm Spaces.
+        Better Conversations.
+      </h2>
+
+    </div>
+
+    <div class="gallery-grid">
+
+      <img src="images/gallery1.jpg" alt="">
+      <img src="images/gallery2.jpg" alt="">
+      <img src="images/gallery3.jpg" alt="">
+      <img src="images/gallery4.jpg" alt="">
+
+    </div>
+
+  </section>
+
+  <!-- QUOTE -->
+
+  <section class="quote">
+
+    <h2>
+      “The kind of place
+      you lose track of time in.”
+    </h2>
+
+  </section>
+
+  <!-- VISIT -->
+
+  <section class="visit reveal" id="visit">
+
+    <div class="visit-content">
+
+      <p>VISIT US</p>
+
+      <h2>
+        Come Stay Awhile.
+      </h2>
+
+      <p class="visit-description">
+        Open daily from 7am–6pm.
+        Located in the heart of downtown.
+      </p>
+
+      <button class="primary-btn">
+        Get Directions
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div class="footer-logo">
+      Sunday Coffee
+    </div>
+
+    <div class="footer-links">
+
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+
+    </div>
+
+    <p class="copyright">
+      © 2026 Sunday Coffee
+    </p>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
